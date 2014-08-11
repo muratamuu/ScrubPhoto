@@ -22,6 +22,20 @@
 		FB2CDA0B19974A6500F0B17A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2CD9EA19974A6500F0B17A /* UIKit.framework */; };
 		FB2CDA1319974A6500F0B17A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB2CDA1119974A6500F0B17A /* InfoPlist.strings */; };
 		FB2CDA1519974A6500F0B17A /* ScrubPhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2CDA1419974A6500F0B17A /* ScrubPhotoTests.m */; };
+		FB2CDA2119974B3C00F0B17A /* MUCommon.c in Sources */ = {isa = PBXBuildFile; fileRef = FB2CDA2019974B3C00F0B17A /* MUCommon.c */; };
+		FB2CDA2419974B7900F0B17A /* MUToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2CDA2319974B7900F0B17A /* MUToolBar.m */; };
+		FB2CDA2719974B9600F0B17A /* MUPath.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2CDA2619974B9600F0B17A /* MUPath.m */; };
+		FB2CDA2A19974BB000F0B17A /* MUToast.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2CDA2919974BB000F0B17A /* MUToast.m */; };
+		FB2CDA2D19974BD800F0B17A /* MUScrubView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2CDA2C19974BD800F0B17A /* MUScrubView.m */; };
+		FB2CDA2F19974C1100F0B17A /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2CDA2E19974C1100F0B17A /* iAd.framework */; };
+		FB2CDA3219974C4700F0B17A /* MUAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2CDA3119974C4700F0B17A /* MUAdView.m */; };
+		FB6FBDB71997C10400E1103C /* monarisa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB6FBDB41997C10400E1103C /* monarisa.jpg */; };
+		FB6FBDBB1997C12100E1103C /* shapeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6FBDBA1997C12100E1103C /* shapeButton.png */; };
+		FB6FBDBE1997C3DB00E1103C /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6FBDBD1997C3DB00E1103C /* UIImage+Resize.m */; };
+		FB6FBDC01997C97C00E1103C /* shapeButton.svg in Resources */ = {isa = PBXBuildFile; fileRef = FB6FBDBF1997C97C00E1103C /* shapeButton.svg */; };
+		FB6FBDC31997CB3A00E1103C /* colorButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6FBDC11997CB3A00E1103C /* colorButton.png */; };
+		FB6FBDC41997CB3A00E1103C /* colorButton.svg in Resources */ = {isa = PBXBuildFile; fileRef = FB6FBDC21997CB3A00E1103C /* colorButton.svg */; };
+		FB6FBDCB1998E49300E1103C /* gogh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB6FBDC61998E49300E1103C /* gogh.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +69,27 @@
 		FB2CDA1019974A6500F0B17A /* ScrubPhotoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrubPhotoTests-Info.plist"; sourceTree = "<group>"; };
 		FB2CDA1219974A6500F0B17A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FB2CDA1419974A6500F0B17A /* ScrubPhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrubPhotoTests.m; sourceTree = "<group>"; };
+		FB2CDA1F19974B2700F0B17A /* MUCommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUCommonDefine.h; sourceTree = "<group>"; };
+		FB2CDA2019974B3C00F0B17A /* MUCommon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MUCommon.c; sourceTree = "<group>"; };
+		FB2CDA2219974B7900F0B17A /* MUToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUToolBar.h; sourceTree = "<group>"; };
+		FB2CDA2319974B7900F0B17A /* MUToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUToolBar.m; sourceTree = "<group>"; };
+		FB2CDA2519974B9600F0B17A /* MUPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUPath.h; sourceTree = "<group>"; };
+		FB2CDA2619974B9600F0B17A /* MUPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUPath.m; sourceTree = "<group>"; };
+		FB2CDA2819974BB000F0B17A /* MUToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUToast.h; sourceTree = "<group>"; };
+		FB2CDA2919974BB000F0B17A /* MUToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUToast.m; sourceTree = "<group>"; };
+		FB2CDA2B19974BD800F0B17A /* MUScrubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUScrubView.h; sourceTree = "<group>"; };
+		FB2CDA2C19974BD800F0B17A /* MUScrubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUScrubView.m; sourceTree = "<group>"; };
+		FB2CDA2E19974C1100F0B17A /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		FB2CDA3019974C4700F0B17A /* MUAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUAdView.h; sourceTree = "<group>"; };
+		FB2CDA3119974C4700F0B17A /* MUAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUAdView.m; sourceTree = "<group>"; };
+		FB6FBDB41997C10400E1103C /* monarisa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monarisa.jpg; sourceTree = "<group>"; };
+		FB6FBDBA1997C12100E1103C /* shapeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shapeButton.png; sourceTree = "<group>"; };
+		FB6FBDBC1997C3DB00E1103C /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		FB6FBDBD1997C3DB00E1103C /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		FB6FBDBF1997C97C00E1103C /* shapeButton.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = shapeButton.svg; sourceTree = "<group>"; };
+		FB6FBDC11997CB3A00E1103C /* colorButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorButton.png; sourceTree = "<group>"; };
+		FB6FBDC21997CB3A00E1103C /* colorButton.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = colorButton.svg; sourceTree = "<group>"; };
+		FB6FBDC61998E49300E1103C /* gogh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gogh.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB2CDA2F19974C1100F0B17A /* iAd.framework in Frameworks */,
 				FB2CD9E919974A6500F0B17A /* CoreGraphics.framework in Frameworks */,
 				FB2CD9EB19974A6500F0B17A /* UIKit.framework in Frameworks */,
 				FB2CD9E719974A6500F0B17A /* Foundation.framework in Frameworks */,
@@ -103,6 +139,7 @@
 		FB2CD9E519974A6500F0B17A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FB2CDA2E19974C1100F0B17A /* iAd.framework */,
 				FB2CD9E619974A6500F0B17A /* Foundation.framework */,
 				FB2CD9E819974A6500F0B17A /* CoreGraphics.framework */,
 				FB2CD9EA19974A6500F0B17A /* UIKit.framework */,
@@ -114,12 +151,28 @@
 		FB2CD9EC19974A6500F0B17A /* ScrubPhoto */ = {
 			isa = PBXGroup;
 			children = (
-				FB2CD9F519974A6500F0B17A /* MUAppDelegate.h */,
-				FB2CD9F619974A6500F0B17A /* MUAppDelegate.m */,
+				FB6FBDB91997C12100E1103C /* button */,
+				FB6FBDB21997C10400E1103C /* sample */,
 				FB2CD9F819974A6500F0B17A /* Main_iPhone.storyboard */,
 				FB2CD9FB19974A6500F0B17A /* Main_iPad.storyboard */,
+				FB2CD9F519974A6500F0B17A /* MUAppDelegate.h */,
+				FB2CD9F619974A6500F0B17A /* MUAppDelegate.m */,
 				FB2CD9FE19974A6500F0B17A /* MUViewController.h */,
 				FB2CD9FF19974A6500F0B17A /* MUViewController.m */,
+				FB2CDA1F19974B2700F0B17A /* MUCommonDefine.h */,
+				FB2CDA2019974B3C00F0B17A /* MUCommon.c */,
+				FB2CDA2219974B7900F0B17A /* MUToolBar.h */,
+				FB2CDA2319974B7900F0B17A /* MUToolBar.m */,
+				FB2CDA2519974B9600F0B17A /* MUPath.h */,
+				FB2CDA2619974B9600F0B17A /* MUPath.m */,
+				FB2CDA2819974BB000F0B17A /* MUToast.h */,
+				FB2CDA2919974BB000F0B17A /* MUToast.m */,
+				FB2CDA2B19974BD800F0B17A /* MUScrubView.h */,
+				FB2CDA2C19974BD800F0B17A /* MUScrubView.m */,
+				FB2CDA3019974C4700F0B17A /* MUAdView.h */,
+				FB2CDA3119974C4700F0B17A /* MUAdView.m */,
+				FB6FBDBC1997C3DB00E1103C /* UIImage+Resize.h */,
+				FB6FBDBD1997C3DB00E1103C /* UIImage+Resize.m */,
 				FB2CDA0119974A6500F0B17A /* Images.xcassets */,
 				FB2CD9ED19974A6500F0B17A /* Supporting Files */,
 			);
@@ -153,6 +206,26 @@
 				FB2CDA1119974A6500F0B17A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB6FBDB21997C10400E1103C /* sample */ = {
+			isa = PBXGroup;
+			children = (
+				FB6FBDC61998E49300E1103C /* gogh.jpg */,
+				FB6FBDB41997C10400E1103C /* monarisa.jpg */,
+			);
+			path = sample;
+			sourceTree = "<group>";
+		};
+		FB6FBDB91997C12100E1103C /* button */ = {
+			isa = PBXGroup;
+			children = (
+				FB6FBDC11997CB3A00E1103C /* colorButton.png */,
+				FB6FBDC21997CB3A00E1103C /* colorButton.svg */,
+				FB6FBDBF1997C97C00E1103C /* shapeButton.svg */,
+				FB6FBDBA1997C12100E1103C /* shapeButton.png */,
+			);
+			path = button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,9 +306,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB2CD9FD19974A6500F0B17A /* Main_iPad.storyboard in Resources */,
+				FB6FBDB71997C10400E1103C /* monarisa.jpg in Resources */,
+				FB6FBDC41997CB3A00E1103C /* colorButton.svg in Resources */,
 				FB2CDA0219974A6500F0B17A /* Images.xcassets in Resources */,
+				FB6FBDC31997CB3A00E1103C /* colorButton.png in Resources */,
 				FB2CD9FA19974A6500F0B17A /* Main_iPhone.storyboard in Resources */,
+				FB6FBDCB1998E49300E1103C /* gogh.jpg in Resources */,
 				FB2CD9F119974A6500F0B17A /* InfoPlist.strings in Resources */,
+				FB6FBDBB1997C12100E1103C /* shapeButton.png in Resources */,
+				FB6FBDC01997C97C00E1103C /* shapeButton.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +335,14 @@
 			files = (
 				FB2CD9F719974A6500F0B17A /* MUAppDelegate.m in Sources */,
 				FB2CDA0019974A6500F0B17A /* MUViewController.m in Sources */,
+				FB2CDA2A19974BB000F0B17A /* MUToast.m in Sources */,
+				FB2CDA3219974C4700F0B17A /* MUAdView.m in Sources */,
+				FB2CDA2719974B9600F0B17A /* MUPath.m in Sources */,
+				FB2CDA2D19974BD800F0B17A /* MUScrubView.m in Sources */,
+				FB2CDA2419974B7900F0B17A /* MUToolBar.m in Sources */,
+				FB2CDA2119974B3C00F0B17A /* MUCommon.c in Sources */,
 				FB2CD9F319974A6500F0B17A /* main.m in Sources */,
+				FB6FBDBE1997C3DB00E1103C /* UIImage+Resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +455,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -395,6 +482,7 @@
 				GCC_PREFIX_HEADER = "ScrubPhoto/ScrubPhoto-Prefix.pch";
 				INFOPLIST_FILE = "ScrubPhoto/ScrubPhoto-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "54623E49-8E77-455A-8C6C-E91FC2C4B1D5";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -404,10 +492,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Takashi Murata (RMUS7G933D)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScrubPhoto/ScrubPhoto-Prefix.pch";
 				INFOPLIST_FILE = "ScrubPhoto/ScrubPhoto-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "54623E49-8E77-455A-8C6C-E91FC2C4B1D5";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -471,6 +561,7 @@
 				FB2CDA1A19974A6500F0B17A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB2CDA1B19974A6500F0B17A /* Build configuration list for PBXNativeTarget "ScrubPhotoTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +570,7 @@
 				FB2CDA1D19974A6500F0B17A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
