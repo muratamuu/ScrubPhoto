@@ -16,34 +16,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="Dj0-bO-qx9" customClass="MUAdView">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="66"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="66" id="p4Y-W9-Ulk"/>
-                                </constraints>
-                            </adBannerView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Alh-cj-9I1" customClass="MUToolBar">
                                 <rect key="frame" x="0.0" y="980" width="768" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="JUK-jk-HAV"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="c5A-x2-eHo"/>
                                 </constraints>
                                 <items/>
                             </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Alh-cj-9I1" firstAttribute="top" secondItem="Dj0-bO-qx9" secondAttribute="bottom" constant="914" id="3Eq-Qa-lIg"/>
-                            <constraint firstItem="Dj0-bO-qx9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="G8A-sa-Wq6"/>
-                            <constraint firstAttribute="trailing" secondItem="Alh-cj-9I1" secondAttribute="trailing" id="GmW-pb-EDr"/>
-                            <constraint firstItem="Dj0-bO-qx9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="UV1-Ro-0ru"/>
-                            <constraint firstItem="Alh-cj-9I1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="dVz-wJ-Q4J"/>
-                            <constraint firstAttribute="trailing" secondItem="Dj0-bO-qx9" secondAttribute="trailing" id="sY9-lJ-FWG"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Alh-cj-9I1" secondAttribute="bottom" id="2TD-Es-OSQ"/>
+                            <constraint firstAttribute="trailing" secondItem="Alh-cj-9I1" secondAttribute="trailing" id="o7f-IH-Z6E"/>
+                            <constraint firstItem="Alh-cj-9I1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ofv-jE-Spw"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="adView" destination="Dj0-bO-qx9" id="lTX-dg-8ao"/>
                         <outlet property="scrubView" destination="8bC-Xf-vdC" id="X2s-UP-Aqp"/>
                         <outlet property="toolBar" destination="Alh-cj-9I1" id="8i7-zW-CIz"/>
                     </connections>

@@ -16,13 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="zqn-h0-XcC" customClass="MUAdView">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="cZ5-wD-Ejr"/>
-                                </constraints>
-                            </adBannerView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZH6-9Z-oEq" customClass="MUToolBar">
                                 <rect key="frame" x="0.0" y="524" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -34,16 +27,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="zqn-h0-XcC" secondAttribute="trailing" id="Ewi-eB-odN"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="ZH6-9Z-oEq" secondAttribute="bottom" id="Mij-sJ-Oyf"/>
-                            <constraint firstItem="zqn-h0-XcC" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="WgI-8G-SdF"/>
                             <constraint firstAttribute="trailing" secondItem="ZH6-9Z-oEq" secondAttribute="trailing" id="l2z-hy-Pkj"/>
                             <constraint firstItem="ZH6-9Z-oEq" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="nbB-xP-8eC"/>
-                            <constraint firstItem="zqn-h0-XcC" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="ufD-bM-b3r"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="adView" destination="zqn-h0-XcC" id="VsW-ou-iSg"/>
                         <outlet property="scrubView" destination="kh9-bI-dsS" id="ep6-yt-FIM"/>
                         <outlet property="toolBar" destination="ZH6-9Z-oEq" id="hJ6-l8-z3F"/>
                     </connections>

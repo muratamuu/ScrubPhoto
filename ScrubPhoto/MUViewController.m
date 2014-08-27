@@ -31,13 +31,13 @@
 - (void)onTouchBegin
 {
     [_toolBar hide];
-    [_adView hide];
+    //[_adView hide];
 }
 
 - (void)onDoubleTap
 {
     [_toolBar show];
-    [_adView show];
+    //[_adView show];
 }
 
 - (void)onTouchToolBarCamera:(UIBarButtonItem *)item

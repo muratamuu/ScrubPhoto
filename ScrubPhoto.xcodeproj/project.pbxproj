@@ -27,7 +27,6 @@
 		FB2CDA2719974B9600F0B17A /* MUPath.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2CDA2619974B9600F0B17A /* MUPath.m */; };
 		FB2CDA2A19974BB000F0B17A /* MUToast.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2CDA2919974BB000F0B17A /* MUToast.m */; };
 		FB2CDA2D19974BD800F0B17A /* MUScrubView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2CDA2C19974BD800F0B17A /* MUScrubView.m */; };
-		FB2CDA2F19974C1100F0B17A /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2CDA2E19974C1100F0B17A /* iAd.framework */; };
 		FB2CDA3219974C4700F0B17A /* MUAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2CDA3119974C4700F0B17A /* MUAdView.m */; };
 		FB6FBDB71997C10400E1103C /* monarisa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB6FBDB41997C10400E1103C /* monarisa.jpg */; };
 		FB6FBDBB1997C12100E1103C /* shapeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6FBDBA1997C12100E1103C /* shapeButton.png */; };
@@ -97,7 +96,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB2CDA2F19974C1100F0B17A /* iAd.framework in Frameworks */,
 				FB2CD9E919974A6500F0B17A /* CoreGraphics.framework in Frameworks */,
 				FB2CD9EB19974A6500F0B17A /* UIKit.framework in Frameworks */,
 				FB2CD9E719974A6500F0B17A /* Foundation.framework in Frameworks */,

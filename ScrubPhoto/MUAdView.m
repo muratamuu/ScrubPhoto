@@ -6,6 +6,7 @@
 //  Copyright (c) 2014年 muratamuu. All rights reserved.
 //
 
+#if false
 #import "MUAdView.h"
 
 #define MU_IAD_VIEW_STATUS_UNLOAD  (0)
@@ -83,3 +84,5 @@
 }
 
 @end
+
+#endif
